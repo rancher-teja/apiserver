@@ -2,7 +2,7 @@ module github.com/rancher/apiserver
 
 go 1.27.0
 
-toolchain go1.27.6
+toolchain go1.27.0
 
 require (
 	github.com/golang/mock v1.6.0
@@ -48,6 +48,7 @@ require (
 	sigs.k8s.io/randfill v1.0.0 // indirect
 	sigs.k8s.io/structured-merge-diff/v6 v6.3.2 // indirect
 )
+
 
 
 replace github.com/rancher/lasso => github.com/rancher-teja/lasso v0.0.0-00010101000000-000000000000
